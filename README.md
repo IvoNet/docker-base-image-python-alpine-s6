@@ -47,6 +47,8 @@ in summary:
 - create a cont-init.d folder with in it files to configure your system and COPY that to the /etc folder
 - create run scripts for your "services" and place them in the etc/services.d folder in its own subdir
  
+The reason I choose for a python alpine image is just that I'm much better in Python than bash scripting 
+so now I have the choice :-) 
  
 ## Example services.d script
 
