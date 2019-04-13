@@ -1,5 +1,7 @@
 # Alpine s6 overlay init system
 
+Base image.
+
 ## Specs
 
 - Alpine 3.9
@@ -65,3 +67,8 @@ exec /usr/sbin/crond -f -l 8 -d 6
 # Documentation
 
 * [s6-overlay](https://github.com/just-containers/s6-overlay)
+
+
+# Example usage
+
+* See [ivonet/nordvpn](http://ivo2u.nl/on) for an example using this base image
