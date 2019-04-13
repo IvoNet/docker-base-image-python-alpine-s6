@@ -13,6 +13,7 @@ This image is a base image with a simple init system already ready for use.
 if you create a directory structure looking like te one below where the files in the cont-init.d folder 
 can be anything you want as long as it is executable you have a system to init your environment
 
+```text
   root
 ├──   etc
 │  ├──   cont-finish.d
@@ -32,7 +33,7 @@ can be anything you want as long as it is executable you have a system to init y
             └──   site-packages
                └──   IvoNet
                   └──   __init__.py
-                     
+```                     
 copy the folder into your onw image based on this one like this
 
 ```dockerfile
