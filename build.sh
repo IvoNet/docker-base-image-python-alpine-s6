@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 image=alpine-python-s6
-version=3.9-3.7.3-1.22.1.0
+version=3.13-3.9.5-2.2.0.3
 
-deploy="false"
-#deploy="true"
-versioning=false
-#versioning=true
+#deploy="false"
+deploy="true"
+#versioning=false
+versioning=true
 
 #OPTIONS="--no-cache --force-rm"
 #OPTIONS="--no-cache"
