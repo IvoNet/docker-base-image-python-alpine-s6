@@ -1,3 +1,3 @@
-#!/usr/bin/with-contenv bash
+#!/command/execlineb -P
 
 echo "Hello, World!"
