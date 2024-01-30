@@ -5,8 +5,8 @@ Base image.
 ## Specs
 
 - Alpine 3.9
-- Python 3.7.3
-- [s6-overlay 1.22.1.0](https://github.com/just-containers/s6-overlay)
+- Python 3
+- [s6-overlay](https://github.com/just-containers/s6-overlay)
 
 ## Usage
 
